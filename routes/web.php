@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('Home');
-});
+Route::view('/', 'Home')->name('Home');
+Route::view('/Frameworks','Frameworks') ->name('Frameworks');
+

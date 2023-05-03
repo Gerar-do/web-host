@@ -8,6 +8,8 @@
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+     
+
         <title>Home Blog</title>
 
   
@@ -89,7 +91,7 @@
                             <p>"Un buen programador es alguien que siempre busca formas de hacer las cosas más fáciles y eficientes para los demás". - Bill Gates.</p>
                           </blockquote>
                           <figcaption class="mt-10">
-                            <img class="mx-auto h-10 w-10 rounded-full" src="https://scontent.ftgz3-1.fna.fbcdn.net/v/t39.30808-6/302179864_590589979233604_6065662076440204313_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=wvUgRrkshfkAX_eXfqV&_nc_ht=scontent.ftgz3-1.fna&oh=00_AfDTJgG_rKPp9QFm3qnvX3y3RfVBJudFRt8kfsT9e5GDpw&oe=6448A00D" alt="">
+                            <img class="mx-auto h-10 w-10 rounded-full" src="https://scontent.ftgz3-1.fna.fbcdn.net/v/t39.30808-6/302179864_590589979233604_6065662076440204313_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6VdNJZveuqMAX92VWfx&_nc_ht=scontent.ftgz3-1.fna&oh=00_AfB7QO3A2eaP2KHngsLz9ckkUz0XNCYpMnIpkTZfPiDsoQ&oe=644C948D" alt="">
                             <div class="mt-4 flex items-center justify-center space-x-3 text-base">
                               <div class="font-semibold text-sky-400">Jafet T.C</div>
                               <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="fill-gray-500">
@@ -104,6 +106,7 @@
                   <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
                 </div>
               </div>
+
               </div>
     </body>
 </html>
