@@ -145,10 +145,7 @@
   </section>
 
   
-         
-
-
-
+  @include('Footer/Footer')
 
 
 
