@@ -1,8 +1,7 @@
-<br>
 
 <div class="relative overflow-hidden  text-center ">
   
-    <div class="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
+    <div class="pb-8 pt-11 sm:pb-40 sm:pt-24 lg:pb-40 lg:pt-40">
       <div class="relative mx-auto max-w-7xl px-32 sm:static sm:px-32 lg:px-8">
         <h1 class="text-amber-500 text-center text-5xl/[54px] font-bold "><></h1>
         <br>
