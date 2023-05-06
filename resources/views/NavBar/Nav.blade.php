@@ -1,5 +1,5 @@
-<header class="bg-gray-900 ">
-  <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+<header class="bg-dark ">
+  <nav class="mx-auto flex max-w-5xl items-center justify-between p-6 lg:px-8" aria-label="Global">
     <div class="flex lg:flex-1">
       <a href="{{ route('Home') }}" class="-m-1.5 p-1.5">
         <span class="sr-only ">Your Company</span>
@@ -10,11 +10,11 @@
     <div class="hidden lg:flex lg:gap-x-12">
     
 
-      <a href="#" class="inline-flex w-full justify-center rounded-md  px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gray-500 sm:ml-3 sm:w-auto ">Proximamente</a>
-      <a href="{{ route('Home') }}" class=" leading-6 text-xl text-cyan-300 font-bold  rounded-md inline-flex w-full sm:ml-3 sm:w-auto px-3 py-2 shadow-sm    hover:text-gray-50">
+      <a href="#" class="inline-flex w-full justify-centerpx-3 py-2 text-sm font-semibold text-gray-50 sm:ml-3 sm:w-auto ">Proximamente</a>
+      <a href="{{ route('Home') }}" class=" leading-6 text-xl text-cyan-300 font-bold  inline-flex w-full sm:ml-3 sm:w-auto px-3 py-2   hover:text-gray-50">
         
         FalCode Blog</a>
-      <a href="#" class="inline-flex w-full justify-center rounded-md  px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gray-500 sm:ml-3 sm:w-auto "">Proximamente</a>
+      <a href="#" class="inline-flex w-full justify-centerpx-3 py-2 text-sm font-semibold text-gray-50  sm:ml-3 sm:w-auto "">Proximamente</a>
     </div>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end">
       <a href="#" class="inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto ">
