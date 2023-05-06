@@ -1,5 +1,5 @@
 <header class="bg-dark ">
-  <nav class="mx-auto flex max-w-5xl items-center justify-between p-2 lg:px-8" aria-label="Global">
+  <nav class="mx-auto flex max-w-5xl items-center justify-between p-3 lg:px-8" aria-label="Global">
     <div class="flex lg:flex-1">
       <a href="{{ route('Home') }}" class="-m-1.5 p-1.5">
         <span class="sr-only ">Your Company</span>
@@ -16,12 +16,21 @@
         FalCode Blog</a>
       <a href="#" class="inline-flex w-full justify-centerpx-3 py-2 text-sm font-semibold text-gray-50  sm:ml-3 sm:w-auto "">Proximamente</a>
     </div>
+    
+    
+    </div>
+
     <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-      <a href="#" class="inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto ">
+    <div class="dropdown">
         
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-          <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-        </svg> &nbsp; Proximamente<span aria-hidden="true">&rarr;</span></a>
+      <button class=" bg-indigo-600 inline-block rounded-md  bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+       Temas de interes
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item text-indigo-900" href="{{ route('Frameworks') }}">Frameworks</a></li>
+        <li><a class="dropdown-item text-indigo-900" href="#">Git-Hub</a></li>
+        <li><a class="dropdown-item text-indigo-900" href="#">Frameworks CSS</a></li>
+      </ul>
     </div>
   </nav>
  
