@@ -13,49 +13,59 @@
         <title>Home Blog</title>
 
   <style>
-:root {
-  --bg: #2b2929;
-  --violet: #323135;
-  --pink: #e8cfdf;
-  --turquoise:  #6531f1;
-  font-size: 16px;
-  
-}
 
-.box1{
-  background-color: var(--bg);
-  border-radius: 1.1rem;
-  display: grid;
-  height: calc(100vh - 22rem);
-  padding: 3rem;
-  place-items: center;
+.block1{
  
+  display: grid;
+ 
+  align-items: center;
+
+  position: relative;
+  margin: 8rem ;
+  width: 85%;
+  height: 400px;
+  background: linear-gradient(0deg, black, rgb(44, 43,43) );
+place-items: center;
+padding: -1rem;
+border-radius: 1.1rem;
 
 }
 
-.gradient-border{
-  animation: gradient 13s linear infinite;
-  background: linear-gradient(100deg, var(--violet) 25%, var(--turquoise) 50%, var(--violet) 75%);
-  background-repeat: repeat;
-  border-radius: 3rem;
-  padding: 1.1rem;
-  margin: 3rem;
-  
+.glow1::before , .glow1::after{
+content: '';
+position: absolute;
+left: -2px;
+top: -2px;
+background: linear-gradient(45deg, #e6fb04, #ff6600, #00ff66, #00ffff,
+#ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff );
+background-size: 400%;
+width: calc(100% + 5px);
+height: calc(100% + 5px);
+z-index: -1;
+animation: animate 30s linear infinite;
+border-radius: 1.1rem;
 
 }
 
-@keyframes gradient {
-  0% {
+
+@keyframes animate{
+  0%{
     background-position: 0 0;
   }
-
-  50% {
-    background-position: -80rem 0;
+  50%{
+    background-position: 400% 0;
   }
-  100% {
+
+  100%{
     background-position: 0 0;
   }
 }
+
+.glow1::after{
+  filter: blur(40px);
+}
+
+
   </style>
     </head>
     <body  class="bg-white">
@@ -67,7 +77,8 @@
 
          
          
-            <div class="overflow-hidden bg-neutral-50 py-12 sm:py-12">
+                   
+            <div class="overflow-hidden bg-neutral-50 py-12 sm:py-12 " style="padding: -4px;">
                 <div class="mx-auto max-w-7xl px-6 lg:px-8">
                   <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                     <div class="lg:pr-8 lg:pt-4">
