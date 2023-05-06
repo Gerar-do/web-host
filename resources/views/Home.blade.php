@@ -37,7 +37,7 @@
   animation: gradient 13s linear infinite;
   background: linear-gradient(100deg, var(--violet) 25%, var(--turquoise) 50%, var(--violet) 75%);
   background-repeat: repeat;
-  border-radius: 2rem;
+  border-radius: 3rem;
   padding: 1.1rem;
   margin: 3rem;
   
