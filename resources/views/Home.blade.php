@@ -9,27 +9,47 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
         <title>Home Blog</title>
 
   <style>
 
-.block1{
- 
-  display: grid;
- 
-  align-items: center;
-
-  position: relative;
-  margin: 8rem ;
-  width: 85%;
-  height: 400px;
-  background: linear-gradient(0deg, black, rgb(44, 43,43) );
-place-items: center;
-padding: -1rem;
-border-radius: 1.1rem;
-
+.text-titulo1{
+  font-family: 'Courgette', cursive;
 }
+
+.block1 {
+  display: grid;
+  align-items: center;
+  position: relative;
+  margin: 8% auto;
+  width: 90vw;
+  height: 60vh;
+  background: linear-gradient(0deg, black, rgb(44, 43, 43));
+  place-items: center;
+  padding: 1rem;
+  border-radius: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .block1 {
+    margin: 15vh auto;
+    height: 45vh;
+    width: 80vw;
+    padding: 0.5rem;
+  }
+  
+  .block1 h1 {
+    font-size: 3rem;
+  }
+  
+  .block1 p {
+    font-size: 1.2rem;
+  }
+}
+
 
 .glow1::before , .glow1::after{
 content: '';
@@ -42,7 +62,7 @@ background-size: 400%;
 width: calc(100% + 5px);
 height: calc(100% + 5px);
 z-index: -1;
-animation: animate 30s linear infinite;
+animation: animate 70s linear infinite;
 border-radius: 1.1rem;
 
 }

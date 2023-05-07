@@ -1,3 +1,4 @@
+<div class="container">
 <div class="block1 glow1 justify-center">
 
     <div class="relative overflow-hidden text-center">
@@ -14,5 +15,8 @@
       </div>
     </div>
   
+</div>
+
+
 </div>
 

@@ -17,40 +17,7 @@
     </head>
     <body  >
       
-      <header class="bg-dark">
-        <nav class="mx-auto flex max-w-7xl items-center justify-between p-3 lg:px-8" aria-label="Global">
-          <div class="flex lg:flex-1">
-            <a href="{{ route('Home') }}" class="-m-1.5 p-1.5">
-              <span class="sr-only">Your Company</span>
-              <img class="h-13 w-14 rounded-full" src="https://scontent.ftgz3-1.fna.fbcdn.net/v/t39.30808-6/302179864_590589979233604_6065662076440204313_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6VdNJZveuqMAX92VWfx&_nc_ht=scontent.ftgz3-1.fna&oh=00_AfB7QO3A2eaP2KHngsLz9ckkUz0XNCYpMnIpkTZfPiDsoQ&oe=644C948D" alt="">
-            </a>
-          </div>
-      
-          <div class="hidden lg:flex lg:gap-x-12">
-            
-      
-            <a href="#" class="text-sm font-semibold leading-6 text-gray-50">proximamente</a>
-            <a href="{{ route('Home') }}" class="text-sm font-semibold leading-6 text-indigo-500"> <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
-              <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
-            </svg></a>
-            <a href="#" class="text-sm font-semibold leading-6 text-gray-50">proximamente</a>
-          </div>
-          <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-            
-       <div class="dropdown">
-        
-        <button class=" bg-indigo-600 inline-block rounded-md  bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-         Temas de interes
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item text-indigo-900" href="{{ route('Frameworks') }}">Frameworks</a></li>
-          <li><a class="dropdown-item text-indigo-900" href="#">Git-Hub</a></li>
-          <li><a class="dropdown-item text-indigo-900" href="#">Frameworks CSS</a></li>
-        </ul>
-      </div>
-          </div>
-        </nav>
-      </header>
+   @include('NavBar/Nav')
       
 
 
