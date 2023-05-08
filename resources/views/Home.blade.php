@@ -24,28 +24,21 @@
   display: grid;
   align-items: center;
   position: relative;
-  margin: 8rem auto;
-  width: 85%;
-  min-height: 400px;
+  margin: 8% auto 0;
+  width: 90vw;
+  height: 60vh;
   background: linear-gradient(0deg, black, rgb(44, 43, 43));
   place-items: center;
   padding: 1rem;
   border-radius: 1.1rem;
 }
 
-.block1 h1 {
-  font-size: 2.5rem;
-}
-
-.block1 p {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-@media screen and (min-width: 640px) {
+@media screen and (max-width: 768px) {
   .block1 {
-    margin: 6rem auto;
-    min-height: 500px;
+    margin: 15vh auto 0;
+    height: 45vh;
+    width: 80vw;
+    padding: 0.5rem;
   }
   
   .block1 h1 {
@@ -53,35 +46,15 @@
   }
   
   .block1 p {
-    font-size: 1.25rem;
-    line-height: 2rem;
+    font-size: 1.2rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   .block1 {
-    margin: 4rem auto;
-    width: 80%;
-    min-height: 600px;
-    padding: 2rem;
-  }
-  
-  .block1 h1 {
-    font-size: 4rem;
-  }
-  
-  .block1 p {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .block1 {
-    margin: 3rem auto;
-    width: 70%;
-    min-height: 700px;
-    padding: 3rem;
+    margin: 8% auto 0;
+    width: 70vw;
+    height: 60vh;
   }
   
   .block1 h1 {
@@ -89,8 +62,7 @@
   }
   
   .block1 p {
-    font-size: 1.75rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
   }
 }
 
