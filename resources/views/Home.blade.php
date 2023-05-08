@@ -20,34 +20,51 @@
   font-family: 'Courgette', cursive;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
 
 .block1 {
-  display: grid;
-  align-items: center;
   position: relative;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  width: 89%;
   height: 400px;
-  background: linear-gradient(0deg, rgb(44, 43, 43), black);
-  place-items: center;
-  padding: -1rem;
+  background: linear-gradient(0deg, black, rgb(44, 43, 43));
   border-radius: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .block1 {
+    margin-top: 10vh;
+    height: 50vh;
+  }
+  
+  .block1 h1 {
+    font-size: 3rem;
+  }
+  
+  .block1 p {
+    font-size: 1.2rem;
+  }
 }
 
 .glow1::before,
 .glow1::after {
-  content: '';
+  content: "";
   position: absolute;
   left: -2px;
   top: -2px;
-  background: linear-gradient(45deg, #e6fb04, #ff6600, #00ff66, #00ffff, #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff);
+  background: linear-gradient(
+    45deg,
+    #e6fb04,
+    #ff6600,
+    #00ff66,
+    #00ffff,
+    #ff00ff,
+    #ff0099,
+    #6e0dd0,
+    #ff3300,
+    #099fff
+  );
   background-size: 400%;
   width: calc(100% + 5px);
   height: calc(100% + 5px);
@@ -63,7 +80,6 @@
   50% {
     background-position: 400% 0;
   }
-
   100% {
     background-position: 0 0;
   }
@@ -73,29 +89,11 @@
   filter: blur(40px);
 }
 
-@media (max-width: 768px) {
-  .container {
-    padding: 2rem;
-  }
-  
-  .block1 {
-    margin-top: 12rem;
-    margin-bottom: 2rem;
-    height: 300px;
-    width: 90%;
-    padding: 1rem;
-  }
-  
-  .block1 h1 {
-    font-size: 3rem;
-  }
-  
-  .block1 p {
-    font-size: 1.2rem;
-  }
-}
 
   </style>
+
+
+
     </head>
     <body  class="bg-white">
       
@@ -105,7 +103,8 @@
           @include('Docs/Info_Docs')
 
          
-
+         
+                   <br>
             <div class="overflow-hidden bg-neutral-50 py-12 sm:py-12 " >
                 <div class="mx-auto max-w-7xl px-6 lg:px-8">
                   <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
