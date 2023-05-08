@@ -43,13 +43,14 @@
   
   .block1 h1 {
     font-size: 3rem;
+    margin-bottom: 0.5rem;
   }
   
   .block1 p {
     font-size: 1.2rem;
+    margin-bottom: 1rem;
   }
 }
-
 
 
 .glow1::before , .glow1::after{
