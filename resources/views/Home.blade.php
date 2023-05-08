@@ -95,7 +95,7 @@
 
 
     </head>
-    <body  class="bg-white">
+    <body  class="bg-dark">
       
         @include('NavBar/Nav')
 <br>
