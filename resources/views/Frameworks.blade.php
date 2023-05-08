@@ -13,6 +13,12 @@
         <title>Frameworks</title>
 
 
+<style>
+  .text-titulo1{
+  font-family: 'Courgette', cursive;
+}
+
+</style>
 
     </head>
     <body  >
