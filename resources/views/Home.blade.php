@@ -124,6 +124,8 @@ background-image: url(https://images.unsplash.com/photo-1574192324001-ee41e18ed6
           </div>
         </div>
       </div>
+      <br>
+      <br>
       @include('Footer/Footer')
     </body>
 </html>
