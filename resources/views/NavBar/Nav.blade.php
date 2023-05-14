@@ -1,12 +1,14 @@
-<nav class="navbar navbar-dark bg-neutral-900 fixed-top">
-  <div class="container-fluid">
+<nav class="navbar navbar-dark bg-black shadow">
+  <div class="container-fluid">  
+      <img class="h-12 w-12 rounded-full justify-content-center " src="{{ asset('302179864_590589979233604_6065662076440204313_n (1).jpg') }}" alt="">
+    <h1 class="text-titulo1 text-white text-xl font-bold">&nbsp;FalCodeIDS </h1>
 
-    <img class="h-13 w-14 rounded-full" src="https://scontent.ftgz3-1.fna.fbcdn.net/v/t39.30808-6/302179864_590589979233604_6065662076440204313_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6VdNJZveuqMAX92VWfx&_nc_ht=scontent.ftgz3-1.fna&oh=00_AfB7QO3A2eaP2KHngsLz9ckkUz0XNCYpMnIpkTZfPiDsoQ&oe=644C948D" alt="">
-    <h1 class="text-titulo1 text-white fs-3">FalCode Ids Blog</h1>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+ 
+    <button class="navbar-toggler custom-toggler border-0 bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+    
+    <div class="offcanvas offcanvas-end text-bg-dark  " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title  text-center" id="offcanvasDarkNavbarLabel">Bienvenidos</h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close">X</button>
@@ -22,12 +24,10 @@
             </a>
           </li>
           
-          <li class="nav-item">
-            <a class="nav-link  text-center" href="#">Contacto</a>
-          </li>
+        
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle  text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Temas dentro de la programación web
+              Temas sobre de la programación web
             </a>
             <ul class="dropdown-menu dropdown-menu-dark">
               <li><a class="dropdown-item r text-center" href="{{ route('Frameworks') }}">Frameworks Js</a></li>
