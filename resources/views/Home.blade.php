@@ -104,7 +104,7 @@
         @include('NavBar/Nav')
         <br>
         <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8 text-center ">
-          <div class="h4 pb-2 mb-4 text-black font-bold border-bottom border-primary">
+          <div class="h3 pb-2 mb-4 text-black font-bold border-bottom border-primary">
           Blog
             <br>
           </div>
