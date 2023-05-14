@@ -1,7 +1,7 @@
-<nav class="navbar navbar-dark bg-black ">
+<nav class="navbar navbar-dark bg-transparent ">
   <div class="container-fluid">  
       <img class="h-12 w-12 rounded-full justify-content-center " src="{{ asset('302179864_590589979233604_6065662076440204313_n (1).jpg') }}" alt="">
-    <h1 class="text-titulo1 text-white text-xl font-bold ">&nbsp;FalCodeIDS </h1>
+    <h1 class="text-titulo1 text-black text-xl font-bold ">&nbsp;FalCodeIDS </h1>
 
     
     <button class="navbar-toggler custom-toggler border-0 bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
@@ -41,17 +41,7 @@
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <div class="container d-flex justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active d-flex align-items-center justify-content-center text-decoration-none btn btn-danger" href="#">
-                    &nbsp;   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-                      <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
-                    </svg>&nbsp;&nbsp;
-                    Proximamente&nbsp;&nbsp;
-                  </a>
-                </li>
-               
-              </div>
+             
               
             </ul>
           </li>
