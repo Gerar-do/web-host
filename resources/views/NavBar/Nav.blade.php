@@ -1,7 +1,7 @@
 <nav class="navbar navbar-dark bg-black ">
   <div class="container-fluid">  
       <img class="h-12 w-12 rounded-full justify-content-center " src="{{ asset('302179864_590589979233604_6065662076440204313_n (1).jpg') }}" alt="">
-    <h1 class="text-titulo1 text-white text-xl font-bold border-bottom border-primary">&nbsp;FalCodeIDS </h1>
+    <h1 class="text-titulo1 text-white text-xl font-bold ">&nbsp;FalCodeIDS </h1>
 
     
     <button class="navbar-toggler custom-toggler border-0 bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
