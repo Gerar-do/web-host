@@ -92,7 +92,10 @@
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(255,255,255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
+.bg-personalizado{
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 
+}
 
   </style>
 
@@ -102,17 +105,16 @@
     <body  class="bg-white">
       
         @include('NavBar/Nav')
-        <br>
-        <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8 text-center ">
-          <div class="h3 pb-2 mb-4 text-black font-bold border-bottom border-primary">
-          Blog
-            <br>
-          </div>
-          <br>
-          @include('Docs/Info_Docs')
+        <br>  
+         @include('Docs/Info_Docs')
+
+         <br>
+        <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8 text-center  bg-white">
+         
+       
 
          
-    <div class="overflow-hidden bg-white py-12 sm:py-12  " >
+    <div class="overflow-hidden  py-12 sm:py-12  " >
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div class="lg:pr-8 lg:pt-4">
