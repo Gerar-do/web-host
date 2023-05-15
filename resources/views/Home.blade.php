@@ -119,7 +119,7 @@ background-image: url(https://images.unsplash.com/photo-1510519138101-570d1dca3d
               <div class="mt-14">
               
       
-                <a href="#" class="rounded-md border   px-8 py-3 text-center font-medium text-white hover:bg-red-500">proximamente</a>
+                <a href="#" class="rounded-md border   px-8 py-3 text-center font-medium text-white hover:bg-red-500 ">proximamente</a>
             
               </div>
         

@@ -10,6 +10,10 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <link rel="shortcut icon" href="{{ asset('302179864_590589979233604_6065662076440204313_n.ico') }}">
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
         <title>Frameworks</title>
 
 
@@ -31,7 +35,12 @@
         <div class="container-fluid">  
             <img class="h-12 w-12 rounded-full justify-content-center " src="{{ asset('302179864_590589979233604_6065662076440204313_n (1).jpg') }}" alt="">
           <h1 class="text-titulo1 text-white text-xl font-bold ">&nbsp;FalCodeIDS </h1>
-      
+          <a class="nav-link active d-flex align-items-center justify-content-center text-decoration-none text-white" href="{{ route('Home') }}">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door me-2" viewBox="0 0 16 16">
+              <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
+            </svg>
+            Home
+          </a>
           
           <button class="navbar-toggler custom-toggler border-0 bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,24 +48,17 @@
           
           <div class="offcanvas offcanvas-end text-bg-dark  " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title  text-center" id="offcanvasDarkNavbarLabel">Bienvenidos</h5>
+              <h5 class="offcanvas-title  text-center" id="offcanvasDarkNavbarLabel">Welcome</h5>
               <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close">X</button>
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active d-flex align-items-center justify-content-center text-decoration-none" href="{{ route('Home') }}">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door me-2" viewBox="0 0 16 16">
-                      <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
-                    </svg>
-                    Menú
-                  </a>
-                </li>
+            
                 
               
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle  text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Temas sobre de la programación web
+                    Topics about web programming
                   </a>
                   <ul class="dropdown-menu dropdown-menu-dark">
                     <li><a class="dropdown-item r text-center" href="{{ route('Frameworks') }}">Frameworks Js</a></li>
@@ -103,9 +105,9 @@
         <div class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div class="lg:pr-4">
             <div class="lg:max-w-lg">
-              <p class="text-base font-semibold leading-7 text-indigo-600">Información</p>
-              <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Frameworks java script</h1>
-              <p class="mt-6 text-xl leading-8 text-gray-700">Los Frameworks de JavaScript son muy populares en el desarrollo web debido a su capacidad para simplificar el proceso de desarrollo y mejorar la eficiencia del equipo de desarrollo. Algunos ejemplos de Frameworks de JavaScript populares incluyen Angular, React, Vue.js, Ember.js, Backbone.js, entre otros.</p>
+              <p class="text-base font-semibold leading-7 text-indigo-600">Information</p>
+              <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">javascript frameworks</h1>
+              <p class="mt-6 text-xl leading-8 text-gray-700">JavaScript Frameworks are very popular in web development due to their ability to simplify the development process and improve the efficiency of the development team. Some examples of popular JavaScript Frameworks include Angular, React, Vue.js, Ember.js, Backbone.js, among others.</p>
             </div>
           </div>
         </div>
@@ -116,13 +118,13 @@
         <div class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div class="lg:pr-4">
             <div class="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-              <p>Cada Framework tiene sus propias características, ventajas y desventajas, por lo que es importante seleccionar el Framework adecuado según las necesidades de tu proyecto. Algunos Frameworks son ideales para aplicaciones grandes y complejas, mientras que otros son más adecuados para proyectos más pequeños y simples.</p>
+              <p>Each Framework has its own characteristics, advantages and disadvantages, so it is important to select the right Framework according to the needs of your project. Some Frameworks are ideal for large, complex applications, while others are better suited for smaller, simpler projects.</p>
             
               
-              <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">De los frameworks de JavaScript mencionados anteriormente, Angular y React son dos de los frameworks más utilizados en la actualidad.</h2>
-              <p class="mt-8">Angular es un framework de JavaScript muy popular desarrollado por Google. Es utilizado para desarrollar aplicaciones web de una sola página (SPA) y es altamente escalable y modular. Angular es ampliamente utilizado por grandes empresas y organizaciones, ya que es compatible con varios lenguajes de programación y proporciona una amplia gama de herramientas y recursos.</p>
+              <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">Of the JavaScript frameworks mentioned above, Angular and React are two of the most widely used frameworks today.</h2>
+              <p class="mt-8">Angular is a very popular JavaScript framework developed by Google. It is used to develop single page web applications (SPA) and is highly scalable and modular. Angular is widely used by large companies and organizations as it supports various programming languages and provides a wide range of tools and resources.</p>
              
-              <p class="mt-6">React, por otro lado, es un framework de JavaScript desarrollado por Facebook. Es utilizado para crear interfaces de usuario interactivas y dinámicas. React es muy popular debido a su enfoque en el rendimiento, la escalabilidad y la facilidad de uso. También cuenta con una amplia gama de herramientas y recursos que facilitan el desarrollo de aplicaciones web.</p>
+              <p class="mt-6">React, on the other hand, is a JavaScript framework developed by Facebook. It is used to create interactive and dynamic user interfaces. React is very popular due to its focus on performance, scalability, and ease of use. It also has a wide range of tools and resources that make it easy to develop web applications.</p>
             </div>
           </div>
         </div>
