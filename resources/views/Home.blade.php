@@ -117,7 +117,7 @@ background-image: url(https://images.unsplash.com/photo-1574192324001-ee41e18ed6
             </div>
             
             
-              <div class="mt-12">
+              <div class="mt-14">
               
       
                 <a href="#" class="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700">proximamente</a>
@@ -131,10 +131,7 @@ background-image: url(https://images.unsplash.com/photo-1574192324001-ee41e18ed6
           </div>
         </div>
   
-  
+  @include("Docs/Info_Docs")
       @include('Footer/Footer')
-      
-
-    
     </body>
 </html>
