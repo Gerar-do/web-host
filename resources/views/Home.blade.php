@@ -127,15 +127,7 @@ background-image: url(https://images.unsplash.com/photo-1574192324001-ee41e18ed6
            
              
               </div>
-              <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
-                <div class="sm:max-w-lg">
-                  <h1 class="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl mt-20">web programming </h1>
-                </div>
-                
-               
-               
-                 
-                  </div>
+          
           </div>
         </div>
   
