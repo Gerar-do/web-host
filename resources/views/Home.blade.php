@@ -111,7 +111,7 @@ background-image: url(https://images.unsplash.com/photo-1510519138101-570d1dca3d
         <div class="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
           <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div class="sm:max-w-lg">
-              <h1 class="font text-4xl font-bold tracking-tight text-indigo-500 sm:text-6xl">web programming blog</h1>
+              <h1 class="font text-4xl font-bold tracking-tight text-indigo-500 sm:text-6xl">Web programming blog</h1>
               <p class="mt-14 text-xl text-white">A programming web blog is a website that provides informative and educational articles on various aspects of web development, primarily aimed at a programming  audience Front-end.</p>
             </div>
             
