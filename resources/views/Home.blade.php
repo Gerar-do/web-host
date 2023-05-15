@@ -90,13 +90,12 @@
 }
 .custom-toggler .navbar-toggler-icon {
   
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(0,0,0)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(255,255,255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 
 }
 .bg-personalizado{
 
-background-image: url(https://images.unsplash.com/photo-1574192324001-ee41e18ed679?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)
+background-image: url(https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1447&q=80)
 }
 
   
@@ -112,26 +111,27 @@ background-image: url(https://images.unsplash.com/photo-1574192324001-ee41e18ed6
         <div class="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
           <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div class="sm:max-w-lg">
-              <h1 class="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">web programming blog</h1>
-              <p class="mt-14 text-xl text-gray-500">A programming web blog is a website that provides informative and educational articles on various aspects of web development, primarily aimed at a programming  audience Front-end.</p>
+              <h1 class="font text-4xl font-bold tracking-tight text-indigo-500 sm:text-6xl">web programming blog</h1>
+              <p class="mt-14 text-xl text-white">A programming web blog is a website that provides informative and educational articles on various aspects of web development, primarily aimed at a programming  audience Front-end.</p>
             </div>
             
             
               <div class="mt-14">
               
       
-                <a href="#" class="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700">proximamente</a>
+                <a href="#" class="rounded-md border border-transparent bg-danger px-8 py-3 text-center font-medium text-white hover:bg-indigo-700">proximamente</a>
             
               </div>
         
-           
+     
              
               </div>
           
-          </div>
+          </div> 
+           @include("Docs/Info_Docs")
         </div>
-  
-  @include("Docs/Info_Docs")
+         
+
       @include('Footer/Footer')
     </body>
 </html>
