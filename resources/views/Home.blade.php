@@ -130,7 +130,11 @@ background-image: url(https://images.unsplash.com/photo-1574192324001-ee41e18ed6
             
           </div>
         </div>
+  
+  
+      @include('Footer/Footer')
+      
 
-      @include("Docs.Info_Docs")
+    
     </body>
 </html>
