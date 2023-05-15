@@ -113,19 +113,24 @@ background-image: url(https://images.unsplash.com/photo-1574192324001-ee41e18ed6
           <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div class="sm:max-w-lg">
               <h1 class="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">web programming blog</h1>
-              <p class="mt-4 text-xl text-gray-500">A programming web blog is a website that provides informative and educational articles on various aspects of web development, primarily aimed at a programming  audience Front-end.</p>
+              <p class="mt-14 text-xl text-gray-500">A programming web blog is a website that provides informative and educational articles on various aspects of web development, primarily aimed at a programming  audience Front-end.</p>
             </div>
-            <div>
-              <div class="mt-10">
+            
+            
+              <div class="mt-12">
               
       
                 <a href="#" class="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700">proximamente</a>
+            
               </div>
-            </div>
+        
+           
+             
+              </div>
+            
           </div>
         </div>
-      </div>
-  @include("Docs/Info_Docs")
-      @include('Footer/Footer')
+
+      @include("Docs.Info_Docs")
     </body>
 </html>
